@@ -5,9 +5,11 @@
     }
   },
   "functions": {
-    "api/**/*.ts": {
+    "app/api/**/*.ts": {
       "memory": 1024,
       "maxDuration": 10
     }
-  }
+  },
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm run build"
 } 
