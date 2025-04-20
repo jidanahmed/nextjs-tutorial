@@ -4,7 +4,7 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "postinstall": "pnpm rebuild bcrypt --build-from-source"
+    "postinstall": "pnpm rebuild bcrypt"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
